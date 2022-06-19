@@ -1,0 +1,15 @@
+.Home{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0F2F5;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    min-height: 100vh;
+
+
+    .Home__container{
+        margin-top:70px;
+        display: flex;
+        flex-direction: column;
+    }
+}
