@@ -1,7 +1,6 @@
 const express = require('express');
 const { ApolloServer, gql } = require('apollo-server');
 const mongoose = require('mongoose');
-const multer  = require('multer')
 const typeDefs = require('./schema/schema');
 const resolvers = require('./resolver/resolvers');
 const mongoDataMethods = require('./data/data')
